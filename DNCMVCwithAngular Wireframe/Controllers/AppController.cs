@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DNCMVCwithAngular_Wireframe.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,11 +16,27 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
         }
 
 
+
+        [HttpGet("contact")]
         public IActionResult Contact()
         {
-            ViewBag.Title = "Contact Us";
+            return View();
+        }
+
+        //same url pattern doesnt matter, it's the http method that the browser will look for
+        [HttpPost("contact")]
+        public IActionResult Contact(ContactViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            {
+
+            }
 
             return View();
+
         }
 
         public IActionResult About()

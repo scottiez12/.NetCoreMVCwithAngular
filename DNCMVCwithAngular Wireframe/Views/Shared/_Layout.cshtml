@@ -5,7 +5,18 @@
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
-    <header>Welcome to MVC.. Like being back at Centriq.</header>
+    <header>
+        <h1>
+            Welcome to MVC.. Like being back at Centriq.
+        </h1>
+     <menu>
+         <ul>
+             <li><a asp-controller="App" asp-action="Index">Home</a></li>
+             <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
+             <li><a asp-controller="App" asp-action="About">About</a></li>
+         </ul>
+     </menu>
+    </header>
     <section>
         <h1>@ViewBag.Title</h1>
         @RenderBody()

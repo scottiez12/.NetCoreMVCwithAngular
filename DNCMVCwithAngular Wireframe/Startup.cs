@@ -17,7 +17,11 @@ namespace DNCMVCwithAngular_Wireframe
         public void ConfigureServices(IServiceCollection services)
         {
             //configure what services the server needs for its' middleware
-            services.AddControllersWithViews();
+            services.AddControllersWithViews()
+                .AddRazorRuntimeCompilation();
+
+            //add the service for razor pages, so the "pages" folder cshtml's can be accessed as a direct url.. like the "/error" page down below
+            services.AddRazorPages();
 
         }
 
@@ -30,6 +34,11 @@ namespace DNCMVCwithAngular_Wireframe
                 //this shows detailed info on errors
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                //catch exception, log it, and go to specific path
+                app.UseExceptionHandler("/error");
+            }
 
 
             //this first ensures that all our js/css/img/whatever files get loaded first
@@ -41,6 +50,11 @@ namespace DNCMVCwithAngular_Wireframe
             //by using endpoints, we can tell the routes where to go
             app.UseEndpoints(cfg =>
             {
+                //this needs to be added to "opt in" to using razor pages
+                //so it looks for it by the default name == view coupling
+                cfg.MapRazorPages();
+
+
                 //so this sets up the pattern and default behavior
                 cfg.MapControllerRoute("Default",
                     //this below means that it will go by controller => the action/method from the controller => optionally an ID in the URL
