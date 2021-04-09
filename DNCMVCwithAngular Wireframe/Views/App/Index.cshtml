@@ -1,14 +1,10 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>index</title>
-    <link href="css/site.css" rel="stylesheet" />
-    <script src="lib/jquery/dist/jquery.min.js"></script>
-</head>
-<body>
-    <h1>Wireframe file serve.</h1>
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
     <div class="productInfo">
-        <img src="/img/VanGogh.jpg" />
+        <img src="~/img/VanGogh.jpg" />
         <h3>Mug</h3>
         <ul class="productProps">
             <li>
@@ -55,7 +51,7 @@
                 <input type="password" />
             </div>
             <div>
-                <input type="checkbox"/>    
+                <input type="checkbox" />
                 <label>Remember Me</label>
             </div>
             <div>
@@ -63,7 +59,3 @@
             </div>
         </form>
     </div>
-
-    <script src="js/index.js"></script>
-</body>
-</html>

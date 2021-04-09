@@ -22,3 +22,18 @@
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.pdb
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.genruntimeconfig.cache
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\libman.json
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\DNCMVCwithAngular Wireframe.Views.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\DNCMVCwithAngular Wireframe.Views.pdb
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.RazorAssemblyInfo.cache
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.RazorAssemblyInfo.cs
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.TagHelpers.input.cache
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.TagHelpers.output.cache
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.RazorCoreGenerate.cache
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\App\Index.cshtml.g.cs
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.RazorTargetAssemblyInfo.cs
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.Views.pdb
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\DNCMVCwithAngular Wireframe.csproj.CopyComplete
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\App\About.cshtml.g.cs
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\App\Contact.cshtml.g.cs
