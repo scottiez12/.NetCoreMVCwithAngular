@@ -19,8 +19,15 @@ using DNCMVCwithAngular_Wireframe.Controllers;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\Views\_ViewImports.cshtml"
+using DNCMVCwithAngular_Wireframe.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f4c922c2f1c69b7882dc7e54cf4dc100942b11b3", @"/Views/App/About.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9e5747f51ddd2495937f6a4f822256939f31af4b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b655ddedb66675a8aaa374799fe41c0f365244a0", @"/Views/_ViewImports.cshtml")]
     public class Views_App_About : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -1,9 +1,15 @@
-﻿body {
+﻿
+/*USING BOOTSTRAP BELOW*/
+
+
+/*VANILLA CSS*/
+
+/*body {
 }
 
 input[type=submit] {
     width: auto;
-}
+}*/
 
 /*These area both usable
 */
@@ -11,24 +17,24 @@ input[type=submit] {
     background-color: #d0d0d0;
 }
 */
-#theForm {
+/*#theForm {
     background-color: #d0d0d0;
 }
 
     #theForm input[type=submit] {
         background-color: green;
         color: white;
-    }
+    }*/
 
 /*.productProps {
     font-size: small;
 }
 */
-ul.productProps {
+/*ul.productProps {
     font-size: small;
-}
+}*/
     /*then target the child elements*/
-    ul.productProps li {
+    /*ul.productProps li {
         list-style: none;
     }
 
@@ -82,4 +88,10 @@ menu li::after{
 
 menu li:last-of-type::after{
     content: "";
-}
+}*/
+
+
+
+
+
+

@@ -23,7 +23,7 @@ namespace DNCMVCwithAngular_Wireframe.ViewModels
         public string Subject { get; set; }
 
         [Required]
-        [MaxLength(250)]
+        [MaxLength(250, ErrorMessage = "Too long")]
         public string Message { get; set; }
     }
 }

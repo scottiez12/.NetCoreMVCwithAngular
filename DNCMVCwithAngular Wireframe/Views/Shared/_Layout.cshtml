@@ -2,27 +2,57 @@
 <html>
 <head>
     <title>MVC: @ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <h1>
-            Welcome to MVC.. Like being back at Centriq.
-        </h1>
-     <menu>
-         <ul>
-             <li><a asp-controller="App" asp-action="Index">Home</a></li>
-             <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
-             <li><a asp-controller="App" asp-action="About">About</a></li>
-         </ul>
-     </menu>
+    <header class="container">
+        @*
+                vanilla css/html
+                <menu>
+                <ul>
+                    <li><a asp-controller="App" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
+                    <li><a asp-controller="App" asp-action="About">About</a></li>
+                </ul>
+            </menu>*@
+
+        @* using bootstrap*@
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <h1 class="navbar-brand">
+                Welcome to MVC.. Like being back at Centriq. Almost.
+            </h1>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#theMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="theMenu" class="navbar-collapse collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="App" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="App" asp-action="Contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="App" asp-action="About">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <section>
-        <h1>@ViewBag.Title</h1>
+    <section class="container">
+        <h1 class="text-center">@ViewBag.Title</h1>
         @RenderBody()
     </section>
-    <footer>Yeet.</footer>
+    <footer class="container">
+        <div class="text-center">
+            Yeet 2021.
+        </div>
+    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="~/js/index.js"></script>
+
+    @RenderSection("Scripts", false)
 </body>
 </html>

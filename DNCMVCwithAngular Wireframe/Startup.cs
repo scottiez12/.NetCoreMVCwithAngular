@@ -1,3 +1,4 @@
+using DNCMVCwithAngular_Wireframe.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -16,6 +17,9 @@ namespace DNCMVCwithAngular_Wireframe
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //adding our created services
+            services.AddTransient<IMailService, NullMailService>();
+
             //configure what services the server needs for its' middleware
             services.AddControllersWithViews()
                 .AddRazorRuntimeCompilation();
