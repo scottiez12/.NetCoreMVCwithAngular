@@ -20,12 +20,10 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
             _context = context;
         }
 
-
-
-
         public IActionResult Index()
         {
             //throw new InvalidProgramException("Bad things happen to good developers..");
+            var results = _context.Products.ToList();
             return View();
         }
 

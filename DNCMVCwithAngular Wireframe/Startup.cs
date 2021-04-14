@@ -35,7 +35,7 @@ namespace DNCMVCwithAngular_Wireframe
 
             //adding our created services
             services.AddTransient<IMailService, NullMailService>();
-
+            services.AddTransient<Seeder>();
             //configure what services the server needs for its' middleware
             services.AddControllersWithViews()
                 .AddRazorRuntimeCompilation();
