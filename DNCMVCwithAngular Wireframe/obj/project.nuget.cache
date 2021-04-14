@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jlnWFaOQl03B2vkazFpItt3Fprx6IiSimuCweIPYCpT1L1ajJ0yq/x8FaXDyOFFlID46Y6s8hyvqaDL1ytW2WQ==",
+  "dgSpecHash": "F2+rQwnT+VTpzuUp0mmPpIjpOXxDbgLW2gP8KvopOCMNoJQAotHf7SP6lbxMYcizw5FuodPyxJiW43tFnaXD5Q==",
   "success": true,
-  "projectFilePath": "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
+  "projectFilePath": "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sziegler\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.5\\microsoft.aspnetcore.mvc.razor.extensions.5.0.5.nupkg.sha512",

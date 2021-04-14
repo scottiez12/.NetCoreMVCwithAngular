@@ -1,4 +1,5 @@
-﻿using DNCMVCwithAngular_Wireframe.Services;
+﻿using DNCMVCwithAngular_Wireframe.Data;
+using DNCMVCwithAngular_Wireframe.Services;
 using DNCMVCwithAngular_Wireframe.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,10 +12,12 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
     public class AppController : Controller
     {
         private readonly IMailService _mailService;
+        private readonly DataContext _context;
 
-        public AppController(IMailService mailService)
+        public AppController(IMailService mailService, DataContext context)
         {
             _mailService = mailService;
+            _context = context;
         }
 
 
@@ -56,6 +59,14 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
             ViewBag.Title = "About";
 
             return View();
+        }
+
+        public IActionResult Shop()
+        {
+            var results = _context.Products
+                .OrderBy(p => p.Category)
+                .ToList();
+            return View(results);
         }
 
     }

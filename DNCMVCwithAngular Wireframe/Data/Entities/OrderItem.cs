@@ -1,4 +1,4 @@
-﻿namespace DutchTreat.Data.Entities
+﻿namespace DNCMVCwithAngular_Wireframe.Data.Entities
 {
   public class OrderItem
   {

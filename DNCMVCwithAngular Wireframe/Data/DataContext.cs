@@ -1,4 +1,4 @@
-﻿using DutchTreat.Data.Entities;
+﻿using DNCMVCwithAngular_Wireframe.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;

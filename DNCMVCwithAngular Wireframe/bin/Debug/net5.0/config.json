@@ -1,0 +1,10 @@
+
+
+{
+  "Colors": {
+    "Favorite": "Blue"
+  },
+  "ConnectionStrings": {
+    "DataContextDb": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=DNCMVCDB;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true;"
+  }
+}
