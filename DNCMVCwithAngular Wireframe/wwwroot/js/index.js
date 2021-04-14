@@ -1,6 +1,6 @@
 ﻿
 
-//everything in a JS file has a "global scope".. so this becomes collisions in naming conventions.
+//everything in a JS file has a "global scope".. so this causes collisions in naming conventions.
 //so the "common way to deal with this.. is to wrap your ENTIRE js file in an anonymous function
 //because by putting it in an anon function, we can keep everything inside the function visible to each other, without worrying about the global scope
 //this also lets us basically say, by wrapping that overall wrapper function with parenthesis, and putting (); at the end, its saying to
@@ -67,8 +67,8 @@ $(document).ready(function () {
     //so this uses jquery to automatically "query" the document... and uses the same system as CSS
     var theForm = $("#theForm");
     //the query always returns a collection...
-    //keeping that in mind, we know if we're using the #name syntax, we're only going to have a single object, if any
-    //so
+    //keeping that in mind, we know if we're using the #name syntax, we're only going to have a single object, if any...
+    //so.
     //theForm.hidden = true;
     //becomes
     theForm.hide();

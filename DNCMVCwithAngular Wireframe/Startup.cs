@@ -55,13 +55,13 @@ namespace DNCMVCwithAngular_Wireframe
             app.UseEndpoints(cfg =>
             {
                 //this needs to be added to "opt in" to using razor pages
-                //so it looks for it by the default name == view coupling
+                //so it looks for it by the default name == view relationship
                 cfg.MapRazorPages();
 
 
                 //so this sets up the pattern and default behavior
                 cfg.MapControllerRoute("Default",
-                    //this below means that it will go by controller => the action/method from the controller => optionally an ID in the URL
+                    //this below means that it will go by controller => the action/method from the controller => optionally (by adding the '?') an ID in the URL
                     "/{controller}/{action}/{id?}",
                     //this anon object specifys default behavior... so if the request is just /{controller}, then go to the default instead of crashing, or whatever
                     new { controller = "App", action = "Index" });
