@@ -12,19 +12,23 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
     public class AppController : Controller
     {
         private readonly IMailService _mailService;
-        private readonly DataContext _context;
+        private readonly IProjectRepository _repository;
+        //private readonly DataContext _context;
 
-        public AppController(IMailService mailService, DataContext context)
+        //replace DbContext with repository classes
+        public AppController(IMailService mailService, IProjectRepository repository)
         {
             _mailService = mailService;
-            _context = context;
+            _repository = repository;
+            //_context = context;
         }
 
         public IActionResult Index()
         {
             //throw new InvalidProgramException("Bad things happen to good developers..");
-            var results = _context.Products.ToList();
+            //var results = _context.Products.ToList();
             return View();
+
         }
 
         [HttpGet("contact")]
@@ -61,9 +65,12 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
 
         public IActionResult Shop()
         {
-            var results = _context.Products
-                .OrderBy(p => p.Category)
-                .ToList();
+            //so after implementing repository pattern, this method becomes....
+            //var results = _context.Products
+            //    .OrderBy(p => p.Category)
+            //    .ToList();
+
+            var results = _repository.GetAllProducts();
             return View(results);
         }
 
