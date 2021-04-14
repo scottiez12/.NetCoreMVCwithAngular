@@ -1,7 +1,9 @@
+using DNCMVCwithAngular_Wireframe.Data;
 using DNCMVCwithAngular_Wireframe.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
@@ -17,6 +19,20 @@ namespace DNCMVCwithAngular_Wireframe
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //add service for DbContext
+            //one way to do this is...
+            //services.AddDbContext<DataContext>(
+            //    //tell it which kind of database we're going to use (local for testing, Sql, NoSql, MySql, etc.)
+            //    cfg =>
+            //    {
+            //        cfg.UseSqlServer();
+            //    }
+            //    );
+
+            //the other way is to leave this service, and go add an override in the DbContext class constructor.. so in our case over in DataContext.cs
+            services.AddDbContext<DataContext>();
+
             //adding our created services
             services.AddTransient<IMailService, NullMailService>();
 

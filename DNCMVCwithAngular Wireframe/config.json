@@ -1,0 +1,10 @@
+
+
+{
+  "Colors": {
+    "Favorite": "Blue"
+  },
+  "ConnectionStrings": {
+    "DataContextDb" :  ""
+  }
+}
