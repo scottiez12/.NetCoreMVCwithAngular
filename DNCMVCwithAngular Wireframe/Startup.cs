@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Reflection;
 
 namespace DNCMVCwithAngular_Wireframe
 {
@@ -34,13 +36,22 @@ namespace DNCMVCwithAngular_Wireframe
             services.AddDbContext<DataContext>();
 
             //adding our created services
-            services.AddTransient<IMailService, NullMailService>();
             services.AddTransient<Seeder>();
+            //add automapper... this is just the order where it is in the demo.
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             services.AddScoped<IProjectRepository, ProjectRepository>();
+            services.AddTransient<IMailService, NullMailService>();
+
             //configure what services the server needs for its' middleware
             services.AddControllersWithViews()
-                .AddRazorRuntimeCompilation();
+                .AddRazorRuntimeCompilation()
+                //add Microsoft.AspNetCore.Mvc.NewtonsoftJson 
+                //this lets us deal with circular/recursive dependencies between entites for EF core
+                //then add and configure...
+                .AddNewtonsoftJson(cfg =>
+                cfg.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                );
 
             //add the service for razor pages, so the "pages" folder cshtml's can be accessed as a direct url.. like the "/error" page down below
             services.AddRazorPages();
