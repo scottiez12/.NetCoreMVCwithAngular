@@ -1,4 +1,5 @@
 ﻿using DNCMVCwithAngular_Wireframe.Data.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DNCMVCwithAngular_Wireframe.Data
 {
-    public class DataContext : DbContext
+    public class DataContext : IdentityDbContext<StoreUser>
     {
         private readonly IConfiguration _config;
         //use ctor to add IConfig and generate the field

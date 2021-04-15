@@ -12,6 +12,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Reflection;
+using DNCMVCwithAngular_Wireframe.Data.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace DNCMVCwithAngular_Wireframe
 {
@@ -32,6 +34,14 @@ namespace DNCMVCwithAngular_Wireframe
             //    }
             //    );
 
+            //add identity
+            services.AddIdentity<StoreUser, IdentityRole>(cfg =>
+            {
+                cfg.User.RequireUniqueEmail = true;
+                //cfg.Password.
+            })
+                .AddEntityFrameworkStores<DataContext>();
+
             //the other way is to leave this service, and go add an override in the DbContext class constructor.. so in our case over in DataContext.cs
             services.AddDbContext<DataContext>();
 
@@ -40,9 +50,9 @@ namespace DNCMVCwithAngular_Wireframe
             //add automapper... this is just the order where it is in the demo.
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
+
             services.AddScoped<IProjectRepository, ProjectRepository>();
             services.AddTransient<IMailService, NullMailService>();
-
             //configure what services the server needs for its' middleware
             services.AddControllersWithViews()
                 .AddRazorRuntimeCompilation()
@@ -80,6 +90,9 @@ namespace DNCMVCwithAngular_Wireframe
             //allows us to route individual calls that come into the server to individual pieces of code
             app.UseRouting();
 
+            //for identity ---- THIS ORDER IS IMPORTANT..
+            app.UseAuthentication();
+            app.UseAuthorization();
             //by using endpoints, we can tell the routes where to go
             app.UseEndpoints(cfg =>
             {

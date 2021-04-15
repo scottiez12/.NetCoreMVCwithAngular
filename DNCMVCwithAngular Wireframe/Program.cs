@@ -39,7 +39,7 @@ namespace DNCMVCwithAngular_Wireframe
             using (var scope = scopeFactory.CreateScope())
             {
                 var seeder = scope.ServiceProvider.GetService<Seeder>();
-                seeder.Seed();
+                seeder.SeedAsync().Wait();
             }
 
         }

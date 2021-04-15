@@ -1,6 +1,7 @@
 ﻿using DNCMVCwithAngular_Wireframe.Data;
 using DNCMVCwithAngular_Wireframe.Services;
 using DNCMVCwithAngular_Wireframe.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -63,6 +64,7 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Shop()
         {
             //so after implementing repository pattern, this method becomes....
