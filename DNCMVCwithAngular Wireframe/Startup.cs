@@ -14,11 +14,20 @@ using Newtonsoft.Json;
 using System.Reflection;
 using DNCMVCwithAngular_Wireframe.Data.Entities;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.Extensions.Configuration;
 
 namespace DNCMVCwithAngular_Wireframe
 {
     public class Startup
     {
+        private readonly IConfiguration _config;
+
+        public Startup(IConfiguration config)
+        {
+            _config = config;
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -41,6 +50,19 @@ namespace DNCMVCwithAngular_Wireframe
                 //cfg.Password.
             })
                 .AddEntityFrameworkStores<DataContext>();
+
+            //adding authentication
+            services.AddAuthentication()
+                .AddCookie()
+                .AddJwtBearer(cfg =>
+                {
+                    cfg.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidIssuer = _config["Token:Issuer"],
+                        ValidAudience = _config["Token:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"]))
+                    };
+                });
 
             //the other way is to leave this service, and go add an override in the DbContext class constructor.. so in our case over in DataContext.cs
             services.AddDbContext<DataContext>();

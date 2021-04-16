@@ -786,3 +786,4 @@ D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetC
 D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

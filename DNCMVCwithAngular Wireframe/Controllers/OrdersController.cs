@@ -2,6 +2,8 @@
 using DNCMVCwithAngular_Wireframe.Data;
 using DNCMVCwithAngular_Wireframe.Data.Entities;
 using DNCMVCwithAngular_Wireframe.ViewModels;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -12,6 +14,7 @@ using System.Threading.Tasks;
 namespace DNCMVCwithAngular_Wireframe.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class OrdersController : Controller
     {
         private readonly IProjectRepository _repository;
