@@ -38,11 +38,18 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
                 ////but if you're passing a parameter of the incoming type, you don't need to state it as a parameter in the Map<>()
                 //return Ok(_mapper.Map<IEnumerable<OrderViewModel>>(result));              
 
-                //using api queries..
-                var results = _repository.GetAllOrders(includeItems);
-                //so by default, it's the incoming type, then the desination type.
-                //but if you're passing a parameter of the incoming type, you don't need to state it as a parameter in the Map<>()
-                return Ok(_mapper.Map<IEnumerable<OrderViewModel>>(results));
+                ////using api queries..
+                //var results = _repository.GetAllOrders(includeItems);
+                ////so by default, it's the incoming type, then the desination type.
+                ////but if you're passing a parameter of the incoming type, you don't need to state it as a parameter in the Map<>()
+                //return Ok(_mapper.Map<IEnumerable<OrderViewModel>>(results));
+
+                var username = User.Identity.Name;
+                //var results = _repository.GetAllOrders(includeItems);
+                //return Ok(_mapper.Map<IEnumerable<OrderViewModel>>(results));
+
+                //now that we have the JWT all setup, we cna use identity in our operations.. 
+                //remember that the entire class is decorated with the [Authorize]
             }
             catch (Exception ex)
             {
