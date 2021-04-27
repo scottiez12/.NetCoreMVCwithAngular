@@ -1,5 +1,3 @@
-\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\appsettings.Development.json
-\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\appsettings.json
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\DNCMVCwithAngular Wireframe.exe
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\DNCMVCwithAngular Wireframe.deps.json
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\DNCMVCwithAngular Wireframe.runtimeconfig.json
@@ -54,8 +52,6 @@
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -140,8 +136,6 @@
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -787,3 +781,18 @@ D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetC
 D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\config.json
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Data\art.json
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\AutoMapper.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+\\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\App\Shop.cshtml.g.cs

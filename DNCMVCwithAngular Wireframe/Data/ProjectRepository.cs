@@ -80,12 +80,12 @@ namespace DNCMVCwithAngular_Wireframe.Data
             }
         }
 
-        public Order GetOrderById(int id)
+        public Order GetOrderById(string username, int id)
         {
            return _ctx.Orders
                 .Include(o => o.Items)
                 .ThenInclude(p => p.Product)
-                .Where(x => x.Id == id)
+                .Where(x => x.Id == id && x.User.UserName == username)
                 .FirstOrDefault();
         }
 
