@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hf63YULKZTu0MubRRhiyDWOksX+tH9dst/5/vwEtji9+dzinJuSItrtpCWx/o9Ng7Z9+YNfLvgZ84mInWOPlhw==",
+  "dgSpecHash": "7VWWqu9AvPFE4TqVPu6ArfdNonm4eC8BLeaOagp9hDg1o0/dsf+Y+45J8+nupyZ5L5GGlw8qNYmjGvfmNjuiEQ==",
   "success": true,
-  "projectFilePath": "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
+  "projectFilePath": "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sziegler\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -49,6 +49,7 @@
     "C:\\Users\\sziegler\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\sziegler\\.nuget\\packages\\microsoft.typescript.msbuild\\4.2.4\\microsoft.typescript.msbuild.4.2.4.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",

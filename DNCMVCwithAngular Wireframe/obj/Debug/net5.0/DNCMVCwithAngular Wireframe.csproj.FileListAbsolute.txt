@@ -796,3 +796,4 @@ D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetC
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\App\Shop.cshtml.g.cs
+D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\json.json

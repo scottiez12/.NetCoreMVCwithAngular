@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj": {}
+    "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj": {}
   },
   "projects": {
-    "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj": {
+    "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
+        "projectUniqueName": "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
         "projectName": "DNCMVCwithAngular Wireframe",
-        "projectPath": "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
+        "projectPath": "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
         "packagesPath": "C:\\Users\\sziegler\\.nuget\\packages\\",
-        "outputPath": "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\obj\\",
+        "outputPath": "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\sziegler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,6 +74,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.5, )"
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.4, )"
             }
           },
           "imports": [
