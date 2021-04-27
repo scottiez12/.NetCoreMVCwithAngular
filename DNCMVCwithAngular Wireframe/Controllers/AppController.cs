@@ -64,7 +64,7 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
             return View();
         }
 
-        [Authorize]
+        //[Authorize]
         public IActionResult Shop()
         {
             //so after implementing repository pattern, this method becomes....

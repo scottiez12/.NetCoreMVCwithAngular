@@ -40,7 +40,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/client",
+            //this is pretty much all we need to change to get this ng app to run with .net core
+            //"outputPath": "dist/client",
+            "outputPath" :  "../wwwroot/client",            
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",

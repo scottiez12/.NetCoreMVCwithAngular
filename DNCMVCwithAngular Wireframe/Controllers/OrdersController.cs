@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 namespace DNCMVCwithAngular_Wireframe.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class OrdersController : Controller
     {
         private readonly IProjectRepository _repository;
