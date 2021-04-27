@@ -47,6 +47,23 @@ namespace DNCMVCwithAngular_Wireframe.Data
             }
         }
 
+        public IEnumerable<Order> GetAllOrdersByUser(string username, bool includeItems)
+        {
+            if (includeItems)
+            {
+                return _ctx.Orders
+                     .Where(x => x.User.UserName == username)
+                     .Include(o => o.Items)
+                     .ThenInclude(p => p.Product)
+                     .ToList();
+            }
+            else
+            {
+                return _ctx.Orders
+                    .ToList();
+            }
+        }
+
         public IEnumerable<Product> GetAllProducts()
         {
             try

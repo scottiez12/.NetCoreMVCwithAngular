@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+6wSj5fPm4SUFZ1lcwMM/VT2vqo2We7Uu6PRqOHeSfHjtJNealWb7ZI0HtoDP2ZwcY7+arcFNzo1hg3WhF3RcA==",
+  "dgSpecHash": "hf63YULKZTu0MubRRhiyDWOksX+tH9dst/5/vwEtji9+dzinJuSItrtpCWx/o9Ng7Z9+YNfLvgZ84mInWOPlhw==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
+  "projectFilePath": "\\\\devfhcswf\\d$\\Workspace\\Users\\sziegler\\GitHubRepos\\Test Projects\\DNCwithMVCandAngular\\.NetCoreMVCwithAngular\\DNCMVCwithAngular Wireframe\\DNCMVCwithAngular Wireframe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sziegler\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sziegler\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

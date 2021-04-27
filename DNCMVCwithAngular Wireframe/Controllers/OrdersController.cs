@@ -45,6 +45,9 @@ namespace DNCMVCwithAngular_Wireframe.Controllers
                 //return Ok(_mapper.Map<IEnumerable<OrderViewModel>>(results));
 
                 var username = User.Identity.Name;
+                var results = _repository.GetAllOrdersByUser(username, includeItems);
+
+                return Ok(_mapper.Map<IEnumerable<Order>, IEnumerable<OrderViewModel>>(results));
                 //var results = _repository.GetAllOrders(includeItems);
                 //return Ok(_mapper.Map<IEnumerable<OrderViewModel>>(results));
 
