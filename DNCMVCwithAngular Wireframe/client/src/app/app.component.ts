@@ -11,5 +11,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
     //this is just a property that can be selected with the double handlebar {{}} syntax, just like using @ in DNC
   //title = 'client';
-  title = 'DNC With Angular';
+  title = 'Shop';
 }
