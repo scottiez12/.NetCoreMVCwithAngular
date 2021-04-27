@@ -797,3 +797,8 @@ D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetC
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 \\devfhcswf\d$\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\obj\Debug\net5.0\Razor\Views\App\Shop.cshtml.g.cs
 D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\json.json
+D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\client\angular.json
+D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\client\package-lock.json
+D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\client\package.json
+D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\client\tsconfig.app.json
+D:\Workspace\Users\sziegler\GitHubRepos\Test Projects\DNCwithMVCandAngular\.NetCoreMVCwithAngular\DNCMVCwithAngular Wireframe\bin\Debug\net5.0\client\tsconfig.json
