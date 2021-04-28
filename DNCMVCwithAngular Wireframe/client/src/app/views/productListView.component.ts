@@ -3,7 +3,10 @@ import { Store } from "../services/store.service";
 
 @Component({
     selector: "product-List",
-    templateUrl: "productListView.component.html"
+    templateUrl: "productListView.component.html",
+    //css files scoped just to this part of the view
+    styleUrls: ["productListView.component.css"]
+    
 })
 
 export default class ProductListView implements OnInit {
@@ -14,7 +17,7 @@ export default class ProductListView implements OnInit {
 
     ngOnInit(): void {
         this.store.loadProducts()
-            .subscribe(); // this subscribe actually kicks off the operation
+            .subscribe(); // this 'subscribe' actually kicks off the operation
     }
 
 }

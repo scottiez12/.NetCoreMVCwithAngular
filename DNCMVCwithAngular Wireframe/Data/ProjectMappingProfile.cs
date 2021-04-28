@@ -18,7 +18,8 @@ namespace DNCMVCwithAngular_Wireframe.Data
                 .ReverseMap();
 
             CreateMap<OrderItem, OrderItemViewModel>()
-                .ReverseMap();
+                .ReverseMap()
+                .ForMember(x => x.Product, opt => opt.Ignore());
         }
     }
 }
