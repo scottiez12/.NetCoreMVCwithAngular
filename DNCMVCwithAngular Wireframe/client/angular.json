@@ -66,7 +66,10 @@
                 }
               ],
               "optimization": true,
-              "outputHashing": "all",
+              //might need to change outputHashing to "none" if the ng files all have whatever.13258236239486286.js, and the browser isnt recognizing them..
+              //really relevant when deploying to a folder
+              //"outputHashing": "all",
+              "outputHashing": "none",
               "sourceMap": false,
               "namedChunks": false,
               "extractLicenses": true,
